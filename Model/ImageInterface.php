@@ -11,6 +11,7 @@
 
 namespace Sylius\Component\Media\Model;
 
+use Sylius\Component\Resource\Model\ResourceInterface;
 use Symfony\Cmf\Bundle\MediaBundle\ImageInterface as CmfImageInterface;
 
 /**
@@ -18,7 +19,7 @@ use Symfony\Cmf\Bundle\MediaBundle\ImageInterface as CmfImageInterface;
  *
  * @author Aram Alipoor <aram.alipoor@gmail.com>
  */
-interface ImageInterface
+interface ImageInterface extends ResourceInterface
 {
     /**
      * @return string
